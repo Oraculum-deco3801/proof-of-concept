@@ -4,7 +4,6 @@ import OpenAI from "openai";
 const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
-	// apiKey: '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',
 	organisation: process.env.OPENAI_ORG,
 	apiKey: process.env.OPENAI_API,
 });
